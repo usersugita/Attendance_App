@@ -17,14 +17,14 @@ DB_PORT=3306
 DB_DATABASE=laravel_db  
 DB_USERNAME=laravel_user  
 DB_PASSWORD=laravel_pass  
-MAIL_MAILER=smtp
-MAIL_HOST=mailhog
-MAIL_PORT=1025
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS=no-reply@example.com
-MAIL_FROM_NAME="Attendance App"
+MAIL_MAILER=smtp  
+MAIL_HOST=mailhog  
+MAIL_PORT=1025  
+MAIL_USERNAME=null  
+MAIL_PASSWORD=null  
+MAIL_ENCRYPTION=null  
+MAIL_FROM_ADDRESS=no-reply@example.com  
+MAIL_FROM_NAME="Attendance App"  
 5.アプリケーションキーの作成  
 php artisan key:generate  
 6.マイグレーションの実行  
@@ -38,7 +38,7 @@ php artisan db:seed
 ・Laravel 8.83.27  
 ・Mysql 8.0.26
 ## ER図  
-![スクリーンショット 2025-02-23 100526](https://github.com/user-attachments/assets/f5e18373-6df7-42ee-96dd-4948d3d60918)
+
 
 ## URL  
 ・開発環境：http://localhost/  
