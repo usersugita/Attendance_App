@@ -2,7 +2,7 @@
 
 Dockerビルド  
 
-1.git clone https://github.com/usersugita/flea-market_app.git  
+1.git clone https://github.com/usersugita/Attendance_App.git  
 2.docker-compose up -d --build  
 ＊MYSQLは、OSによって起動しない場合がありますのでそれぞれのPCに合わせて docker-compose.yml ファイルを編集してください。  
 
@@ -17,6 +17,7 @@ DB_PORT=3306
 DB_DATABASE=laravel_db  
 DB_USERNAME=laravel_user  
 DB_PASSWORD=laravel_pass  
+
 MAIL_MAILER=smtp  
 MAIL_HOST=mailhog  
 MAIL_PORT=1025  
