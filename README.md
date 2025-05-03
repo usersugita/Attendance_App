@@ -39,6 +39,7 @@ php artisan db:seed
 ・Laravel 8.83.27  
 ・Mysql 8.0.26
 ## ER図  
+![スクリーンショット 2025-05-03 144931](https://github.com/user-attachments/assets/8356196c-f79a-4c51-ada1-d76e8cf4ef74)
 
 
 ## URL  
