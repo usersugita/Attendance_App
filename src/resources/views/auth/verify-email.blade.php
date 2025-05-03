@@ -1,19 +1,24 @@
 @extends('layouts.app')
-
+@section('css')
+<link rel="stylesheet" href="{{ asset('css/verify-email.css') }}">
+@endsection
 @section('content')
 <div class="container">
-    <h1>メール認証をお願いします</h1>
-    <p>登録したメールアドレスに認証リンクを送付しました。</p>
+    <h4>登録していただいたメールアドレスに認証メールを送付しました。
+        <br>メール認証を完了してください。
+    </h4>
 
-    <div style="margin-top: 20px;">
-        <a href="http://localhost:8025" class="btn btn-primary">認証はこちら</a>
+    <div class="container-btn">
+        <a href="http://localhost:8025" class="btn-primary">認証はこちら</a>
     </div>
 
     <form method="POST" action="{{ route('verification.send') }}" style="margin-top: 20px;">
         @csrf
-        <button type="submit" class="btn btn-secondary">
-            メールを再送する
-        </button>
+        <div class="container-btn">
+            <button type="submit" class="btn-secondary">
+                認証メールを再送する
+            </button>
+        </div>
     </form>
 
     @if (session('message'))

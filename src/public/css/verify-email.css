@@ -1,0 +1,95 @@
+body {
+   
+    width: 100%;
+    font-family: "Hiragino Maru Gothic Pro", "Yu Gothic Medium", "メイリオ", sans-serif;
+}
+
+main {
+    margin: 100px auto;
+    width: 60%;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #696969;
+    background: #C8C8C8;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.time {
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.attendance__button button {
+    background: #000;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.work__button {
+    display: flex;
+    justify-content: center;
+}
+
+.break button {
+    background: white;
+    margin-left: 40px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.breakend button {
+    background: white;
+
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn-primary{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    background-color:#D9D9D9 ;
+    padding: 10px 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    
+}
+.container-btn{
+    margin-top: 50px;
+}
+.btn-secondary{
+color: #0073CC;
+background: white;
+border: none;
+cursor: pointer;
+}
+.btn-secondary:hover {
+    text-decoration: underline;
+    text-decoration-color: #0073CC;
+}
