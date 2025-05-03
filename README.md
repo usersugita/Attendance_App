@@ -43,5 +43,6 @@ php artisan db:seed
 
 
 ## URL  
-・開発環境：http://localhost/  
+・スタッフログイン：http://localhost/login  
+・管理者ログイン：http://localhost/admin/login 
 ・phpMyadmin：http://localhost:8080/  
