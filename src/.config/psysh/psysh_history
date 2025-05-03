@@ -1,0 +1,9 @@
+_HiStOrY_V2_
+\134App\134Models\134BreakTime::pluck('total_break_time')->toArray();
+\134App\134Models\134BreakTime::orderBy('id',\040'desc')->first();
+exit
+\134App\134Models\134BreakTime::pluck('total_break_time')->toArray();
+\134DB::select("SHOW\040COLUMNS\040FROM\040breaks\040WHERE\040Field\040=\040'total_break_time'");
+\134App\134Models\134BreakTime::pluck('total_break_time')->toArray();
+exit
+$attendance\040=\040App\134Models\134Attendance::with('user')->first();

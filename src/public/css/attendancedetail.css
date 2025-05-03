@@ -1,0 +1,70 @@
+body {
+    background: #E1E1E1;
+    width: 100%;
+    font-family: "Hiragino Maru Gothic Pro", "Yu Gothic Medium", "メイリオ", sans-serif;
+}
+
+main {
+    margin: 100px auto;
+    width: 80%;
+}
+@media screen and (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+}
+
+.title h2 {
+    display: inline-block;
+    padding-left: 15px;
+    border-left: 3px solid #000;
+}
+.content__table{
+    border-radius: 5px;
+    background: white; 
+        width: 100%;
+       
+        
+}
+.content__table th {
+    color: #737373;
+    text-align: left;
+    padding-left:40px
+}
+.content__table tr {
+    font-weight: bold;
+    border-bottom: 2px solid #E1E1E1; 
+    
+}
+.content__table td {
+    padding: 20px 30px 20px 0;
+}
+.content__table input{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 3px;
+}
+  input[type="time"]::-webkit-calendar-picker-indicator {
+      display: none;
+      -webkit-appearance: none;
+  }
+.content__button button{
+    
+    background: #000;
+        color: white;
+        font-size: 18px;
+        padding: 5px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+.content__approved span{
+  
+    background: #696969;
+    color: white;
+    font-size: 16px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

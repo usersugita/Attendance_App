@@ -1,0 +1,72 @@
+body {
+    background: #E1E1E1;
+    width: 100%;
+    font-family: "Hiragino Maru Gothic Pro", "Yu Gothic Medium", "メイリオ", sans-serif;
+}
+main {
+    margin: 100px auto;
+    width: 80%;
+
+}
+@media screen and (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+}
+
+.title h2 {
+    display: inline-block;
+    padding-left: 15px;
+    border-left: 3px solid #000;
+}
+.content{
+    padding-top: 10px;
+}
+.content__table {
+    
+    background: white;
+    border-radius: 5px;
+    color: #737373;
+    width: 100%;
+    text-align: center;
+}
+
+.content__table tr {
+    border-bottom: 2px solid #E1E1E1;
+    padding: 3px 10px;
+}
+
+.content__table td,
+th {
+    padding: 10px 15px;
+}
+
+.detail-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.tab-links {
+    margin: 20px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+.tab-links a{
+    color: #000;
+    text-decoration: none;
+    padding-left: 50px;
+}
+.active-tab {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.note-column {
+    white-space: nowrap;
+        /* 折り返ししない */
+        overflow: hidden;
+        /* はみ出したら隠す */
+        text-overflow: ellipsis;
+        /* はみ出したら「…」を付ける */
+        max-width: 150px;
+        /* 幅で制御 */
+}

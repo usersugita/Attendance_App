@@ -1,0 +1,65 @@
+body {
+    background: #E1E1E1;
+    width: 100%;
+    font-family: "Hiragino Maru Gothic Pro", "Yu Gothic Medium", "メイリオ", sans-serif;
+}
+
+main {
+    margin: 100px auto;
+    width: 60%;
+    text-align: center;
+}
+.item {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color:#696969 ;
+    background: #C8C8C8;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.date{
+font-size: 25px;
+font-weight: bold;
+}
+.time {
+    padding-top: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 30px;  
+}
+.attendance__button button{
+    background: #000;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.work__button{
+    display: flex;
+    justify-content: center;
+}
+.break button{
+    background: white;
+    margin-left: 40px;
+        color: #000;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px 40px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+}
+.breakend button{
+    background: white;
+        
+        color: #000;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px 40px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+}

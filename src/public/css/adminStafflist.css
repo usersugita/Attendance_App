@@ -1,0 +1,50 @@
+body {
+    background: #E1E1E1;
+    width: 100%;
+    font-family: "Hiragino Maru Gothic Pro", "Yu Gothic Medium", "メイリオ", sans-serif;
+}
+main {
+    margin: 100px auto;
+    width: 80%;
+}
+@media screen and (max-width: 768px) {
+    main {
+        width: 95%;
+    }
+}
+.title h2 {
+    display: inline-block;
+    padding-left: 15px;
+    border-left: 3px solid #000;
+}
+.content__table {
+    border-radius: 5px;
+    background: white;
+    width: 100%;
+}
+.content__table th {
+    color: #737373; 
+    padding: 10px 15px;
+    text-align: center;
+}
+.content__table tr {
+    border-bottom: 2px solid #E1E1E1;
+   
+}
+.content__table td {
+    padding: 10px 15px;
+    color: #737373;
+   
+    text-align: center;
+}
+.stafflist-link {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
