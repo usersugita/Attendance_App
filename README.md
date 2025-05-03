@@ -44,5 +44,6 @@ php artisan db:seed
 
 ## URL  
 ・スタッフログイン：http://localhost/login  
-・管理者ログイン：http://localhost/admin/login 
-・phpMyadmin：http://localhost:8080/  
+・管理者ログイン：http://localhost/admin/login  
+・phpMyadmin：http://localhost:8080/
+  
